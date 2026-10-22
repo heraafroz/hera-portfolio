@@ -1142,3 +1142,50 @@ a:focus-visible {
       .project-logo-image, .project-monogram { width: 64px; height: 64px; }
     }
   
+/* NAVBAR LOGO */
+.brand-logo {
+  display: inline-flex;
+  align-items: center;
+  flex-shrink: 0;
+  line-height: 0;
+}
+
+.brand-logo img {
+  display: block;
+  width: 155px;
+  height: 48px;
+  max-width: none;
+  object-fit: contain;
+  object-position: left center;
+}
+
+/* FOOTER LOGO */
+.footer-logo {
+  display: inline-flex;
+  align-items: center;
+  flex-shrink: 0;
+  line-height: 0;
+  margin-bottom: 14px;
+}
+
+.footer-logo img {
+  display: block;
+  width: 165px;
+  height: 55px;
+  max-width: 100%;
+  object-fit: contain;
+  object-position: left center;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .brand-logo img {
+    width: 130px;
+    height: 42px;
+  }
+
+  .footer-logo img {
+    width: 145px;
+    height: 48px;
+  }
+}
